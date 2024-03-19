@@ -62,6 +62,7 @@ function App() {
     <br />
     <label htmlFor="">Márka:</label>
     <input type="text" name="" id="brandInp" onInput={e => {setBrand(e.currentTarget.value)}} />
+    <br />
     <label htmlFor="">Ár:</label>
     <input type="text" name="" id="priceInp" onInput={e => {setPrice(e.currentTarget.value)}}/>
     <button onClick={PostData} >Add</button>
