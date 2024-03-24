@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Console } from './console';
+import { Console } from './Console';
 
 import './App.css'
 
@@ -71,9 +71,11 @@ function App() {
 
     <div className='container' >
       
-      <h1>Title</h1>
+      <h1>Konzolok</h1>
       <ul>
+      
       {
+        
         consoles.map(cons => <p> {cons.Name} - {cons.Brand} - {cons.Price}Ft</p>)
       }
       </ul>
